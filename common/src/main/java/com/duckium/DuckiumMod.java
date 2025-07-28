@@ -1,5 +1,6 @@
 package com.duckium;
 
+import com.duckium.blocks.DuckiumBlocks;
 import com.duckium.items.DuckiumItems;
 import com.duckium.tabs.DuckiumTabs;
 
@@ -12,6 +13,7 @@ public final class DuckiumMod {
     public static void init() {
         LOGGER.info("duckium initialized!!!");
         DuckiumTabs.init();
+        DuckiumBlocks.init();
         DuckiumItems.init();
     }
 }

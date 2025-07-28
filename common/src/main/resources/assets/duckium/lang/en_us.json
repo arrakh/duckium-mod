@@ -1,5 +1,7 @@
 ﻿{
   "item.duckium.ingot": "Duckium Ingot",
   "item.duckium.ore": "Duckium Ore",
+  "block.duckium.ore_block": "Duckium Ore Block",
+  "block.duckium.deepslate_ore_block": "Deepslate Duckium Ore Block",
   "category.duckium.tab": "Duckium"
 }

@@ -1,0 +1,35 @@
+modLoader = "javafml"
+loaderVersion = "[47,)"
+#issueTrackerURL = ""
+license = "Insert License Here"
+
+[[mods]]
+modId = "duckium"
+version = "${version}"
+displayName = "Duckium"
+authors = "arrakh"
+description = '''
+Test mod to learn basic modding. Quack!
+'''
+#logoFile = ""
+
+[[dependencies.duckium]]
+modId = "forge"
+mandatory = true
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.duckium]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.20.1,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.duckium]]
+modId = "architectury"
+mandatory = true
+versionRange = "[9.2.14,)"
+ordering = "AFTER"
+side = "BOTH"

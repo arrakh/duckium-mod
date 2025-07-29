@@ -1,0 +1,7 @@
+// 1.20.1	2025-07-29T16:36:45.8299284	Block States: duckium
+1452d49f961609c5fe528442cfa7e9712aa50d86 assets/duckium/blockstates/deepslate_ore_block.json
+ab6ad83c5e9baf1d97a54b17b09f03f52f45eb49 assets/duckium/blockstates/ore_block.json
+63b775fc2b26de585d024522c21cda4382a3aaef assets/duckium/models/block/deepslate_ore_block.json
+96699699c77ab3a9ab509b0c2081a86f339ea521 assets/duckium/models/block/ore_block.json
+574c93efa5a26410552191120d60d646f1058018 assets/duckium/models/item/deepslate_ore_block.json
+e0f4621493b8ae3f323efc2e6c3fad852b49913f assets/duckium/models/item/ore_block.json

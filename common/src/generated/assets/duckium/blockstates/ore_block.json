@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "duckium:block/ore_block"
+    }
+  }
+}

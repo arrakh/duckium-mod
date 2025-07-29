@@ -2,9 +2,26 @@ plugins {
     id 'com.gradleup.shadow'
 }
 
+def generatedResources = file("../common/src/generated")
+
+sourceSets {
+    main {
+        resources.srcDir generatedResources
+    }
+}
+
 loom {
     forge {
         mixinConfig "duckium.mixins.json"
+    }
+
+    runs {
+        data {
+            data()
+            programArgs "--all", "--mod", "duckium"
+            programArgs "--output", generatedResources.absolutePath
+            programArgs "--existing", file("../common/src/main/resources").absolutePath
+        }
     }
 }
 
